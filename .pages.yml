@@ -7,7 +7,12 @@ content:
     label: Current Affairs
     type: collection
     path: _posts/current-affairs
-    filename: "{year}-{month}-{day}-{slug}.md"
+    filename: "{year}-{month}-{day}-{fields.title}.md"
+    view:
+      primary: title
+      fields: [title, date]
+      sort: date
+      order: desc
     fields:
       - name: title
         label: Title
@@ -35,7 +40,12 @@ content:
     label: Stories & Analysis
     type: collection
     path: _posts/stories
-    filename: "{year}-{month}-{day}-{slug}.md"
+    filename: "{year}-{month}-{day}-{fields.title}.md"
+    view:
+      primary: title
+      fields: [title, date]
+      sort: date
+      order: desc
     fields:
       - name: title
         label: Title
