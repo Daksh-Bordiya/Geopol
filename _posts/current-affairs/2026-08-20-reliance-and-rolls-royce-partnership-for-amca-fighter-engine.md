@@ -6,7 +6,8 @@
 
 ## Strategic Impact
 
-#### Until recently, France's **Safran** was seen as the favorite to **win** **this** ₹**61,000 crore AMCA engine deal** because if we trace back in time France served as a strategic defence partner of India.. Recently India bought **36** Rafale jet and Indian Navy is buying **26** Naval Rafales and in all these jets the engine used is of Safran.. Hence it makes it more favourable for India to give this deal to Safran as they also promised a 10-year development cycle..  
+#### Until recently, France's **Safran** was seen as the favorite to **win** **this** ₹**61,000 crore AMCA engine deal** because if we trace back in time France served as a strategic defence partner of India.. Recently India bought **36** Rafale jet and Indian Navy is buying **26** Naval Rafales and in all these jets the engine used is of Safran.. Hence it makes it more favourable for India to give this deal to Safran as they also promised a 10-year development cycle..
+
 But the French were doing this deal on their own terms of :
 
 - **Incomplete technology transfer**  
