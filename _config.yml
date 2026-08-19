@@ -332,3 +332,10 @@ defaults:
       share: true
       related: true
 future: true
+collections:
+  current_affairs:
+    output: true
+    permalink: /current-affairs/:slug/
+  stories:
+    output: true
+    permalink: /stories/:slug/
