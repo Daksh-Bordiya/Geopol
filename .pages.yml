@@ -1,0 +1,60 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: current_affairs
+    label: Current Affairs
+    type: collection
+    path: _posts/current-affairs
+    format: raw
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: single
+        hidden: true
+      - name: categories
+        label: Category
+        type: string
+        default: current-affairs
+        hidden: true
+      - name: body
+        label: Body
+        type: rich-text
+
+  - name: stories
+    label: Stories & Analysis
+    type: collection
+    path: _posts/stories
+    format: raw
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: layout
+        label: Layout
+        type: string
+        default: single
+        hidden: true
+      - name: categories
+        label: Category
+        type: string
+        default: stories
+        hidden: true
+      - name: body
+        label: Body
+        type: rich-text
