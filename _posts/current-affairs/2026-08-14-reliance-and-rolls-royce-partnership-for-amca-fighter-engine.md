@@ -1,3 +1,9 @@
+---
+layout: single
+title: "Reliance & Rolls-Royce Partner for AMCA Fighter Engine"
+date: 2026-08-14
+categories: current-affairs
+---
 ![](</assets/images/Screenshot 2026-08-20 003029.png>)
 
 # **Overview**
