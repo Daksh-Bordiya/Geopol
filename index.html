@@ -2,3 +2,13 @@
 layout: home
 author_profile: true
 ---
+
+## Current Affairs
+
+{% for post in site.categories.current-affairs %}
+  * [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% else %}
+  {% for post in site.posts %}
+    * [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+  {% endfor %}
+{% endfor %}
