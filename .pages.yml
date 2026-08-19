@@ -7,7 +7,7 @@ content:
     label: Current Affairs
     type: collection
     path: _posts/current-affairs
-    format: raw
+    filename: "{year}-{month}-{day}-{slug}.md"
     fields:
       - name: title
         label: Title
@@ -35,7 +35,7 @@ content:
     label: Stories & Analysis
     type: collection
     path: _posts/stories
-    format: raw
+    filename: "{year}-{month}-{day}-{slug}.md"
     fields:
       - name: title
         label: Title
