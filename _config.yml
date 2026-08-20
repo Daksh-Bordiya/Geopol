@@ -59,3 +59,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+
+  # Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed
