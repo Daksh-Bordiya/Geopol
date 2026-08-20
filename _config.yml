@@ -32,6 +32,14 @@ collections:
     output: true
     permalink: /stories/:slug/
 
+# Exclude unnecessary files from build
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
 # Defaults
 defaults:
   - scope:
