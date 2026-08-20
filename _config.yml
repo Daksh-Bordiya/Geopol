@@ -14,6 +14,7 @@ url: "https://daksh-bordiya.github.io"
 baseurl: "/geopol"
 repository: "daksh-bordiya/geopol"
 logo: "/assets/images/logo.png"
+permalink: /:categories/:title/
 
 # Reading Settings
 words_per_minute: 200
