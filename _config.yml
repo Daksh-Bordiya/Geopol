@@ -23,7 +23,6 @@ enable_copy_code_button: true
 # Conversion & Formatting
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/
 future: true
 
 # Custom Collections
@@ -34,13 +33,6 @@ collections:
   stories:
     output: true
     permalink: /stories/:slug/
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-  load_paths:
-    - _sass
 
 # Exclude unnecessary files
 exclude:
