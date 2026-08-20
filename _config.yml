@@ -13,46 +13,7 @@ description: "In-depth insights, current affairs, and strategic analysis."
 url: "https://daksh-bordiya.github.io"
 baseurl: "/geopol"
 repository: "daksh-bordiya/geopol"
-logo: "/assets/images/logo.png"
 permalink: /:categories/:title/
-
-# Reading Settings
-words_per_minute: 200
-enable_copy_code_button: true
-
-# Conversion & Formatting
-markdown: kramdown
-highlighter: rouge
-future: true
-
-# Custom Collections
-collections:
-  current_affairs:
-    output: true
-    permalink: /current-affairs/:slug/
-  stories:
-    output: true
-    permalink: /stories/:slug/
-
-# Exclude unnecessary files
-exclude:
-  - CHANGELOG.md
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
 
 # Plugins
 plugins:
@@ -61,3 +22,11 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+
+# Exclude unnecessary files
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
