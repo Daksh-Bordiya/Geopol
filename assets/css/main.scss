@@ -1,6 +1,6 @@
 ---
-# Jekyll requires front matter to compile SCSS to CSS
+# Jekyll requires empty front matter to compile SCSS
 ---
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes/styles";
+@import "minimal-mistakes";
