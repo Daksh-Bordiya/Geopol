@@ -1,5 +1,5 @@
 # Theme Settings
-minimal_mistakes_skin: "aqua" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "sunrise"
+minimal_mistakes_skin: "aqua"
 
 # Site Settings
 locale: "en-US"
@@ -10,7 +10,7 @@ description: "In-depth insights, current affairs, and strategic analysis."
 url: "https://daksh-bordiya.github.io"
 baseurl: "/geopol"
 repository: "daksh-bordiya/geopol"
-logo: "/assets/images/logo.png" # Add image path here if you upload a logo later, e.g. "/assets/images/logo.png"
+logo: "/assets/images/logo.png"
 
 # Reading Settings
 words_per_minute: 200
