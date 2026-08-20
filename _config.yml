@@ -8,6 +8,8 @@ title: "GEOPOL"
 title_separator: "-"
 subtitle: "Geopolitics, Defense & World Affairs"
 description: "In-depth insights, current affairs, and strategic analysis."
+
+# URL & Path Settings
 url: "https://daksh-bordiya.github.io"
 baseurl: "/geopol"
 repository: "daksh-bordiya/geopol"
@@ -32,7 +34,12 @@ collections:
     output: true
     permalink: /stories/:slug/
 
-# Exclude unnecessary files from build
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude unnecessary files
 exclude:
   - CHANGELOG.md
   - README.md
@@ -59,8 +66,3 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
-
-  # Sass/SCSS settings
-sass:
-  sass_dir: _sass
-  style: compressed
