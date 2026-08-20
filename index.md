@@ -1,5 +1,6 @@
 ---
 layout: home
+author_profile: true
 title: "Geopolitics & Analysis"
 header:
   overlay_color: "#1a202c"
